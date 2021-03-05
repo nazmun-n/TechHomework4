@@ -6,78 +6,70 @@
     <!-- Bootstrap Link for CSS -->    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     
-    <p>hello</p>
-    <div style="margin-left: 50px;">
+    
+    <div style="margin-left: 50px; margin-top: 8%;">
+         <h3>Schedule an appointment for your pet!</h3>
+        <br />
     <p>
-      <label for="select">Example select</label>
+         
+      <label for="select">Which Doctor would you like to see? </label>
       <select id="select">
         <option value="">Choose...</option>
-        <optgroup label="Option group 1">
-          <option value="">Option 1</option>
-          <option value="">Option 2</option>
-          <option value="">Option 3</option>
-        </optgroup>
-        <optgroup label="Option group 2">
-          <option value="">Option 4</option>
-          <option value="">Option 5</option>
-          <option value="">Option 6</option>
-        </optgroup>
+          <option value="">Dr.Dolittle</option>
+          <option value="">Dr.Suess</option>
+          <option value="">Dr.Naz</option>
       </select>
     </p>
+        <br />
 
     <p>
       <label>
         <input type="checkbox" value="" />
-        Check this checkbox
+        Would like a virtual appointment.
       </label>
     </p>
-
+<h5>The reason for appointment:</h5>
     <p>
+        
       <label>
         <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="" />
-        Option one is this and that
+        Check-up 
       </label>
       <label>
-        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
-        Option two is something else that's also super long to demonstrate the wrapping of these fancy form controls.
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="" />
+        Medication 
       </label>
       <label>
-        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="" />
-        Option three is disabled
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked="" />
+        Surgery 
+      </label>
+        <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" checked="" />
+        Other 
       </label>
     </p>
 
     <p>
-      <label for="textarea">Example textarea</label>
+      <label for="textarea">Tell me what's going on with your pet.</label>
       <textarea id="textarea" rows="3"></textarea>
     </p>
 
     <p>
-      <label for="date">Example date</label>
+      <label for="date">Choose appointment date:</label>
       <input type="date" id="date" />
     </p>
 
     <p>
-      <label for="time">Example time</label>
+      <label for="time">Choose appoinment time:</label>
       <input type="time" id="time" />
     </p>
 
-    <p>
-      <label for="output">Example output</label>
-      <output name="result" id="output">100</output>
-    </p>
 
     <p>
-      <button type="submit">Button submit</button>
-      <input type="submit" value="Input submit button" />
-      <input type="button" value="Input button" />
+      <button type="submit">Create appointment</button>
     </p>
 
-    <p>
-      <button type="submit" disabled="">Button submit</button>
-      <input type="submit" value="Input submit button" disabled="" />
-      <input type="button" value="Input button" disabled="" />
-    </p>
+   
 
         </div>
 </asp:Content>
