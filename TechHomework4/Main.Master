@@ -14,11 +14,29 @@
     <form id="form1" runat="server">
         <div>
             <h1 style="color: blue">Pet Med System</h1>
-            <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%">
-                <a href="Default.aspx">Home</a>
-                <a href="Page2.aspx">Appointment</a>
-                <a href="Page3.aspx">Contact Us</a>
+
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navbar-static-top" style="margin-bottom: 25px;">
+
+            <a class="navbar-brand" href="#">Pet Med System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Default.aspx">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Page2.aspx">Appointments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Page3.aspx">Contact Us</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
